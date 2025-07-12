@@ -372,3 +372,48 @@ main {
 	font-size: 16px;
 	font-weight: bold;
 }
+
+/* Footer Style */
+
+.footer {
+	background-color: white;
+	height: 428px;
+	justify-items: center;
+	align-content: center;
+}
+
+.footer-content {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 531px;
+	height: 221px;
+}
+
+.footer-logo {
+	font-size: 100px;
+}
+
+.footer-desc {
+	padding: 8px 0px 20px;
+	color: #8987a1;
+	font-size: 16px;
+	line-height: 25px;
+	word-spacing: 2px;
+}
+
+footer ul {
+	display: flex;
+	justify-content: center;
+}
+
+footer ul li {
+	padding: 0px 18px;
+	list-style: none;
+}
+
+footer ul li a {
+	text-decoration: none;
+	color: #8987a1;
+	font-size: 16px;
+}

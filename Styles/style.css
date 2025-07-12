@@ -313,3 +313,62 @@ main {
 .focus-img {
 	border-radius: 48px;
 }
+/* Contact Section Style */
+
+.contact {
+	margin: 92.23px 150px 14px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 71px 0px;
+	gap: 115px;
+}
+
+.contact-title {
+	font-size: 97px;
+	font-weight: bold;
+}
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	gap: 19px;
+	max-width: 497px;
+}
+
+.email,
+.name,
+.message {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.con-email,
+.com-name,
+.con-message {
+	font-size: 18px;
+	font-weight: 400;
+}
+
+#email,
+#name,
+#message {
+	font-size: 20px;
+	padding: 20px 32px;
+	border: none;
+	border-radius: 10px;
+	box-shadow: inset 0px 0px 0px 1px #d6dded;
+}
+
+#message {
+	max-height: 135px;
+}
+
+.contact-form {
+	padding: 71px 0px;
+}
+
+.contact-btn {
+	font-size: 16px;
+	font-weight: bold;
+}

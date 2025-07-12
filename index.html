@@ -19,110 +19,263 @@
 		<link rel="stylesheet" href="Styles/style.css" />
 	</head>
 	<body>
-		<header>
+		<header class="header">
 			<nav>
-				<nav class="logo"></nav>
-				<nav class="btn"></nav>
+				<span class="nav-logo inter">LOGO</span>
+				<a href=""><button class="nav-btn raleway">Sign Up</button></a>
 			</nav>
 			<div class="banner">
-				<h1 class="banner-title"></h1>
-				<button class="banner-btn"></button>
+				<span class="banner-title raleway">
+					Cool Dark UI Template for Webflow Agencies!
+				</span>
+				<a href=""><button class="btn banner-btn">Stay Focused</button></a>
 			</div>
 		</header>
 		<main>
 			<!-- sect.sect>.action>(.action-detail>h3.action-title+p.action-desc+btn.action)+img.action -->
 			<section class="sect">
-				<div class="action">
+				<div class="action raleway">
 					<div class="action-detail">
-						<h3 class="action-title"></h3>
-						<p class="action-desc"></p>
-						<button class="action"></button>
+						<h3 class="action-title">See It in Action</h3>
+						<p class="action-desc">
+							Explore the live preview and imagine your brand in this bold new
+							look.
+						</p>
+						<a href=""
+							><button class="action-btn">Launch Live Preview</button></a
+						>
 					</div>
-					<img src="" alt="" class="action" />
+					<img src="Assets/wc-mini.png" alt="" class="action-img" />
 				</div>
 			</section>
 
-			<!-- sect.user>h3.user+.user-detail*3>h1.user-data+p.user-data-subtitle -->
+			<!-- sect.user>h3.user+.user-detail*3>span.user-data+p.user-data-subtitle -->
 			<section class="user">
-				<h3 class="user"></h3>
-				<div class="user-detail">
-					<h1 class="user-data"></h1>
-					<p class="user-data-subtitle"></p>
-				</div>
-				<div class="user-detail">
-					<h1 class="user-data"></h1>
-					<p class="user-data-subtitle"></p>
-				</div>
-				<div class="user-detail">
-					<h1 class="user-data"></h1>
-					<p class="user-data-subtitle"></p>
+				<h3 class="user-title raleway">Joined Thousands of Productive Users</h3>
+				<div class="user-stat inter">
+					<div class="user-detail">
+						<span class="user-data">50K</span>
+						<p class="user-data-subtitle">Active Users</p>
+					</div>
+					<div class="user-detail">
+						<span class="user-data">2M+</span>
+						<p class="user-data-subtitle">Focus Sessions</p>
+					</div>
+					<div class="user-detail">
+						<span class="user-data">95%</span>
+						<p class="user-data-subtitle">Satisfaction rate</p>
+					</div>
 				</div>
 			</section>
 
-			<!-- sect.review>h3.review-heading+.review-card*3>h4.review-title+p.review-desc+.review-user>img.review-user-img+h6.review-user-name+p.review-user-date -->
-			<section class="review">
-				<h3 class="review-heading"></h3>
-				<div class="review-card">
-					<h4 class="review-title"></h4>
-					<p class="review-desc"></p>
-					<div class="review-user">
-						<img src="" alt="" class="review-user-img" />
-						<h6 class="review-user-name"></h6>
-						<p class="review-user-date"></p>
+			<!-- sect.review>span.review-heading+.review-card*3>span.review-title+span.review-desc+.review-user>img.review-user-img+span.review-user-name+span.review-user-date -->
+			<section class="review raleway">
+				<span class="review-heading">What Our Users Say</span>
+				<div class="review-collec">
+					<div class="review-card">
+						<div class="review-star">
+							<img
+								class="review-star-img"
+								src="Assets/icon-star.png"
+								alt="Star"
+							/>
+							<img
+								class="review-star-img"
+								src="Assets/icon-star.png"
+								alt="Star"
+							/>
+							<img
+								class="review-star-img"
+								src="Assets/icon-star.png"
+								alt="Star"
+							/>
+							<img
+								class="review-star-img"
+								src="Assets/icon-star.png"
+								alt="Star"
+							/>
+							<img
+								class="review-star-img"
+								src="Assets/icon-star.png"
+								alt="Star"
+							/>
+						</div>
+						<div class="review-content">
+							<span class="review-title">Loved by Designers</span>
+							<span class="review-desc"
+								>This template instantly leveled up our presence.” – Studio
+								Vertex</span
+							>
+						</div>
+						<div class="review-user">
+							<img
+								src="Assets/avatar.png"
+								alt="User & Reviewer"
+								class="review-user-img"
+							/>
+							<div class="review-user-info">
+								<span class="review-user-name">Reviewer Name</span
+								><span class="review-user-date">Date</span>
+							</div>
+						</div>
 					</div>
-				</div>
-				<div class="review-card">
-					<h4 class="review-title"></h4>
-					<p class="review-desc"></p>
-					<div class="review-user">
-						<img src="" alt="" class="review-user-img" />
-						<h6 class="review-user-name"></h6>
-						<p class="review-user-date"></p>
+					<div class="review-card">
+						<div class="review-star">
+							<img
+								class="review-star-img"
+								src="Assets/icon-star.png"
+								alt="Star"
+							/>
+							<img
+								class="review-star-img"
+								src="Assets/icon-star.png"
+								alt="Star"
+							/>
+							<img
+								class="review-star-img"
+								src="Assets/icon-star.png"
+								alt="Star"
+							/>
+							<img
+								class="review-star-img"
+								src="Assets/icon-star.png"
+								alt="Star"
+							/>
+							<img
+								class="review-star-img"
+								src="Assets/icon-star.png"
+								alt="Star"
+							/>
+						</div>
+						<div class="review-content">
+							<span class="review-title">Loved by Designers</span>
+							<span class="review-desc"
+								>This template instantly leveled up our presence.” – Studio
+								Vertex</span
+							>
+						</div>
+						<div class="review-user">
+							<img
+								src="Assets/avatar.png"
+								alt="User & Reviewer"
+								class="review-user-img"
+							/>
+							<div class="review-user-info">
+								<span class="review-user-name">Reviewer Name</span
+								><span class="review-user-date">Date</span>
+							</div>
+						</div>
 					</div>
-				</div>
-				<div class="review-card">
-					<h4 class="review-title"></h4>
-					<p class="review-desc"></p>
-					<div class="review-user">
-						<img src="" alt="" class="review-user-img" />
-						<h6 class="review-user-name"></h6>
-						<p class="review-user-date"></p>
+					<div class="review-card">
+						<div class="review-star">
+							<img
+								class="review-star-img"
+								src="Assets/icon-star.png"
+								alt="Star"
+							/>
+							<img
+								class="review-star-img"
+								src="Assets/icon-star.png"
+								alt="Star"
+							/>
+							<img
+								class="review-star-img"
+								src="Assets/icon-star.png"
+								alt="Star"
+							/>
+							<img
+								class="review-star-img"
+								src="Assets/icon-star.png"
+								alt="Star"
+							/>
+							<img
+								class="review-star-img"
+								src="Assets/icon-star.png"
+								alt="Star"
+							/>
+						</div>
+						<div class="review-content">
+							<span class="review-title">Loved by Designers</span>
+							<span class="review-desc"
+								>This template instantly leveled up our presence.” – Studio
+								Vertex</span
+							>
+						</div>
+						<div class="review-user">
+							<img
+								src="Assets/avatar.png"
+								alt="User & Reviewer"
+								class="review-user-img"
+							/>
+							<div class="review-user-info">
+								<span class="review-user-name">Reviewer Name</span
+								><span class="review-user-date">Date</span>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
 
 			<!-- sect.focus>h2.focus-title+p.focus-desc+btn.focus-btn+img.focus-img -->
-			<section class="focus">
-				<h2 class="focus-title"></h2>
-				<p class="focus-desc"></p>
-				<button class="focus-btn"></button
-				><img src="" alt="" class="focus-img" />
+			<section class="focus raleway">
+				<span class="focus-title">
+					Ready to <span class="theme-color inter">FOCUS</span> better
+				</span>
+				<span class="focus-desc">
+					This template instantly leveled up our presence.” – Studio Vertex
+				</span>
+				<a href=""><button class="focus-btn">Get Started Free</button></a>
+				<img src="Assets/wc-big.png" alt="" class="focus-img" />
 			</section>
 
-			<!-- sect.contact>h1.contact-title+form.contact>label+input:email+label+input:text+label+textarea:cols:rows+btn.contact-btn -->
-			<section class="contact">
-				<h1 class="contact-title"></h1>
-				<form action="" class="contact">
-					<label for=""></label><input type="email" name="" id="" /><label
-						for=""
-					></label
-					><input type="text" name="" id="" /><label for=""></label
-					><textarea name="" id="" cols="30" rows="10"></textarea
-					><button class="contact-btn"></button>
+			<!-- sect.contact>span.contact-title+form.contact>label+input:email+label+input:text+label+textarea:cols:rows+btn.contact-btn -->
+			<section class="contact raleway">
+				<span class="contact-title">Let's Get in Touch</span>
+				<form action="" class="contact-form inter">
+					<div class="email">
+						<label class="con-email" for="email">Email</label>
+						<!-- Little delinquency, Hi Hi! -->
+						<input
+							placeholder="com@email.example"
+							type="email"
+							name=""
+							id="email"
+						/>
+					</div>
+					<div class="name">
+						<label class="con-name" for="name-l">Full Name</label>
+						<input placeholder="Full Name" type="text" name="" id="name" />
+					</div>
+					<div class="message">
+						<label class="con-message" for="message-l">Message</label
+						><textarea
+							placeholder="Write Your Message ....."
+							name=""
+							id="message"
+							cols="30"
+							rows="10"
+						></textarea
+						><button class="contact-btn raleway">Get In Touch</button>
+					</div>
 				</form>
 			</section>
 		</main>
 		<footer>
-			<!-- sect.footer>h1.footer-logo+p.footer-desc+ul>li*4>a -->
+			<!-- sect.footer>span.footer-logo+p.footer-desc+ul>li*4>a -->
 			<section class="footer">
-				<h1 class="footer-logo"></h1>
-				<p class="footer-desc"></p>
-				<ul>
-					<li><a href=""></a></li>
-					<li><a href=""></a></li>
-					<li><a href=""></a></li>
-					<li><a href=""></a></li>
-				</ul>
+				<div class="footer-content">
+					<span class="inter nav-logo footer-logo">LOGO</span>
+					<span class="footer-desc raleway">
+						Ready to elevate your online presence? Contact us today to discuss
+						your project and discover how we can bring your vision to life.
+					</span>
+					<ul class="raleway">
+						<li><a href="">Home</a></li>
+						<li><a href="">About</a></li>
+						<li><a href="">How it Works</a></li>
+						<li><a href="">Services</a></li>
+					</ul>
+				</div>
 			</section>
 		</footer>
 	</body>
